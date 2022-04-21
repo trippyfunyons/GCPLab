@@ -1,0 +1,9 @@
+#app.yaml
+
+runtime: python37
+
+env_variables:
+  CLOUD_SQL_USERNAME: database-hood-eno1
+  CLOUD_SQL_PASSWORD: hood10034685
+  CLOUD_SQL_DATABASE_NAME: database-hood-eno1
+  CLOUD_SQL_CONNECTION_NAME: database-hood-eno1:us-east1:database-hood-eno1

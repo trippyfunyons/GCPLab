@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <h1>Songs</h1>
+
+    <table>
+
+    <tr><th>Customer Name</th><th>Customer Street Address</th><th>Customer City</th></tr>
+
+    {% for song in songs %}
+      <tr><td>{{song.customername}}</td> <td>{{song.customerstreet}}</td><td>{{song.customercity}}</td></tr>
+    {% endfor %}
+    </table>
+{% endblock %}
